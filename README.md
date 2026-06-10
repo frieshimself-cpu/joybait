@@ -5,7 +5,17 @@ Playful one-page website for **$JOYBAIT** — the pump.fun memecoin that uses **
 **CA:** `BDCXV5WKmx2G6g1qGsmSCfc78QNiMzPqUVLKsEaVpump`
 **Trade / watch live:** https://pump.fun/coin/BDCXV5WKmx2G6g1qGsmSCfc78QNiMzPqUVLKsEaVpump
 
-## Running it
+## Deploy on Vercel (takes ~2 minutes)
+
+1. Go to **[vercel.com/new](https://vercel.com/new)** and sign in (the "Continue with GitHub" option is easiest).
+2. Under **Import Git Repository**, find `frieshimself-cpu/joybait` and click **Import**.
+   - If it's not listed, click "Adjust GitHub App Permissions" and grant Vercel access to the repo.
+3. Touch nothing on the configure screen — no framework, no build command, no env vars needed. Just click **Deploy**.
+4. ~30 seconds later you get a live URL like `joybait.vercel.app`. Every future push to the repo auto-deploys.
+
+`vercel.json` is already included (clean URLs, long-cache for the logo, basic security headers).
+
+## Running it locally
 
 It's a single static page with zero build steps and zero dependencies:
 
@@ -17,13 +27,14 @@ open index.html
 python3 -m http.server 8000
 ```
 
-Deploys as-is to GitHub Pages, Netlify, Vercel, or any static host.
+Also deploys as-is to GitHub Pages, Netlify, or any static host.
 
 ## Structure
 
 ```
 index.html              # the whole site (HTML + CSS + JS inline)
 assets/joybait-logo.jpg # the happy bunny
+vercel.json             # Vercel config (no build step — pure static)
 ```
 
 ## Nice touches
