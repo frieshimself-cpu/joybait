@@ -2,8 +2,8 @@
 
 Playful one-page website for **$JOYBAIT** — the pump.fun memecoin that uses **100% of creator rewards** to fund bounties for tiny acts of kindness (helping someone old cross the road, complimenting a stranger IRL, and friends).
 
-**CA:** `2HLTgkArWT2p8FifXH15t4bFgzpuVxXDt8JBxkL3pump`
-**Trade / watch live:** https://pump.fun/coin/2HLTgkArWT2p8FifXH15t4bFgzpuVxXDt8JBxkL3pump
+**CA:** `C6h2WjXEFZrfmGUYDVQJHcdsyXrwYoX3uWdNxsGRpump`
+**Trade / watch live:** https://pump.fun/coin/C6h2WjXEFZrfmGUYDVQJHcdsyXrwYoX3uWdNxsGRpump
 
 ## Deploy on Vercel (takes ~2 minutes)
 
